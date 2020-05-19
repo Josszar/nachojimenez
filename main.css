@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: #ffffff;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+/*nav > a {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+} */
+
+.nav-options {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  margin-left: 10px;
+  font-family: Raleway;
+}
+
+#logo-home {
+  height: 75px;
+}
+
+#hero {
+  background-image: url(malte-wingen-PDX_a_82obo-unsplash.jpg);
+  height: 80vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  font-family: Montserrat;
+  padding: 40px;
+}
+
+#parte2 {
+  background-image: url(alberto-juarez-cPm8HPRL04w-unsplash.jpg);
+  height: 80vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  font-family: Montserrat;
+  padding: 40px;
+  font: #ffffff;
+}
+
+#parte3 {
+  background-image: url(stil-vdaJJbls3xE-unsplash.jpg);
+  height: 80vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  font-family: Montserrat;
+  padding: 40px;
+  color: black;
+  font-size: 30px;
+}
+
+#parte4 {
+  background-image: url(florian-klauer-mk7D-4UCfmg-unsplash.jpg);
+  height: 80vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: left;
+  flex-direction: column;
+  font-family: Montserrat;
+  padding: 40px;
+  color: black;
+  font-size: 30px;
+}
+
+.title {
+  color: white;
+  padding: 10px;
+  font-size: 45px;
+}
+
+.contenido {
+  color: white;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.contenido3 {
+  color: black;
+  padding: 60px;
+  font-size: 40px;
+  align-items: baseline;
+}
+
+.contenido4 {
+  color: black;
+  padding: 10px;
+  font-size: 40px;
+  align-items: baseline;
+}
+
+.header {
+}
+
+.pie {
+  color: black;
+  font-family: Montserrat;
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+a {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: Montserrat;
+  color: black;
+}
